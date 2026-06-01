@@ -1,0 +1,29 @@
+.slider_container {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider_images {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slider_images img {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.slider_prev, .slider_next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.slider_prev {
+    left: 10px;
+}
+
+.slider_next {
+    right: 10px;
+}
